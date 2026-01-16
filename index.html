@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | My First Website</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .container { max-width: 600px; }
+    h1 { font-size: clamp(2rem, 8vw, 3.5rem); margin-bottom: 1rem; }
+    p { font-size: clamp(1rem, 4vw, 1.25rem); opacity: 0.9; line-height: 1.6; }
+    .emoji { font-size: 4rem; margin-bottom: 1rem; }
+    .badge {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      background: rgba(255,255,255,0.2);
+      border-radius: 50px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="emoji">👋</div>
+    <h1>안녕하세요!</h1>
+    <p>저의 첫 번째 웹사이트에 오신 것을 환영합니다.<br>
+       이 페이지는 GitHub Pages로 배포되었습니다.</p>
+    <div class="badge">🚀 Powered by GitHub Pages</div>
+  </div>
+</body>
+</html>
